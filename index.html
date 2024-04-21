@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"/>
+  <link rel="stylesheet" href="./styles.css">
+  <title>Portofolio - Susan</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <div id="up"></div>
+  <div id="down"></div>
+  <div id="left"></div>
+  <div id="right"></div>
+
+  <header id="header">
+  
+    <nav class="navbar">
+      <button class="menu-button"></button>
+
+      <ul class="navbar-links">
+        <li><a class="navigation-item navigation-active" id="nav-hero" href="#person">Home</a></li>
+        <li><a class="navigation-item navigation-active" id="nav-about" href="#about">About</a></li>
+        <li><a class="navigation-item navigation-active" id="nav-projects" href="#projects">Projects</a></li>
+        <li><a class="navigation-item navigation-active" id="nav-contact" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- End Header -->
+
+  <!-- Person -->
+  <section id="person">
+    <div class="person-content">
+      <div class="heading-line1">Hello, I'm <span>Susan</span>.</div>
+      <div class="heading-line2">I'm a Web Developer.</div>
+  </section>
+  <!-- End Person -->
+
+  <!-- About -->
+  <section id="about">
+    <div class="box-about">
+      <div class="section-subtitle">
+       <h1>About</h1>
+        <img src="./img/user.svg" height="100" />
+      </div>
+     
+
+      <h3>
+        I'm a JR Developer with experience in
+        <p>HTML & CSS</p>
+      </h3>
+
+      <h4>
+       I committed to the philosophy of life-long learning, The unique combination of creativity, logic,
+            technology and never running out of new things to discover, drives
+            my excitement and passion for web development. When I’m not at my
+            computer I like to spend my time reading, yoga and editing videos.
+      </h4>
+
+      <div class="skills-content">
+       
+          <ul class="skills">
+            <li>
+              <div class="skills-items">
+                <img src="./img/html.svg" alt="html-icon" height="100px">
+              </div>
+            </li>
+          
+            <li>
+              <div  class="skills-items">
+                <img src="./img/css.svg" alt="css-icon" height="100px">
+              </div>
+            </li>
+          
+            <li>
+              <div class="skills-items">
+                <img src="./img/js.svg" alt="js-icon" height="100px">
+              </div>
+            </li>
+          
+        </div>
+
+      </div>
+    
+    </div>
+  </section>
+  <!-- End about -->
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <div class="box-projects">
+      <h2 class="projekts-heading section-heading">Projects</h2>
+      <div class="project project-left">
+        <a href="https://quiz-app-git-main-susan-rahmawatis-projects.vercel.app/">
+          <div class="project-image-container">
+            <div class="project-image-image">
+              <img src="./img/Screenshot 2024-04-20 at 09.14.46.png" height="500px" alt="project-image"/>
+            </div>
+          </div>
+        </a>
+        <div class="project-info">
+          <h3 class="Project-title">Quiz App</h3>
+          <p class="project-description">Live App</p>
+        </div>
+      </div>
+  
+      <div class="project project-right">
+        <a href="https://dice-game-nu-flame.vercel.app/">
+          <div class="project-image-container">
+            <div class="project-image-image">
+              <img src="./img/dice.png" height="500px" alt="project-image"/>
+            </div>
+          </div>
+        </a>
+        <div class="project-info">
+          <h3 class="Project-title">Dice Game</h3>
+          <p class="project-description">Live App</p>
+        </div>
+      </div>
+  
+      <div class="project project-left">
+        <a href="https://webdev-challenges-ki2f.vercel.app/">
+          <div class="project-image-container">
+            <div class="project-image-image">
+              <img src="./img/drum.png" height="500px" alt="project-image"/>
+            </div>
+          </div>
+        </a>
+        <div class="project-info">
+          <h3 class="Project-title">Drum Kit</h3>
+          <p class="project-description">Live App</p>
+        </div>
+      </div>
+  
+      <div class="project project-right">
+        <a href="https://tindog-app-seven.vercel.app/">
+          <div class="project-image-container">
+            <div class="project-image-image">
+              <img src="./img/tindog.png" height="500px" alt="project-image"/>
+            </div>
+          </div>
+        </a>
+        <div class="project-info">
+          <h3 class="Project-title">Tindog App</h3>
+          <p class="project-description">Live App</p>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+    
+
+  <section class="contact" id="contact">
+    <div class="contact-box">
+      <h2 class="contact-heading section-heading">Contact</h2>
+      <p>
+        Have a question or want to work together? leave your details and i'll
+        get back to you as soon as possible
+      </p>
+      <form class="contact-form" action="https://formspree.io/f/xpzvkrrk"   method="POST">
+        <input class="contact-form-name" type="text" name="name" placeholder="Name" required />
+        <input class="contact-form-email" type="email" name="email" placeholder="Email" required />
+        <textarea class="contact-form-message" name="message" placeholder="Message" required></textarea>
+        <div class="contact-form-error">
+          <div class="form-error" aria-roledescription="">
+            <div class="form-error-name">
+              Please enter your name
+            </div>
+            <div class="form-error-email" >
+              Please enter your email
+            </div>
+            <div class="form-error-Message" >
+              Please enter your message
+            </div>
+          </div>
+          <button type="submit" class="contact-form-submit">SUBMIT</button>
+        </div>
+      </form>
+    </div>
+   
+  </section>
+
+  <footer class="footer">
+    <div class="links">
+      <a href="https://github.com/Sannsfilm" target="_blank">
+        <img src="./img/logo-github.svg" alt="icon-github">
+      </a>
+      <a href="https://www.instagram.com/sannfilms/" target="_blank">
+        <img src="./img/logo-insta.svg" alt="icon-insta">
+      </a>
+      <!-- <a href="" target="_blank">
+        <img src="./svg/logo-linkedin.svg" alt="icon-linkin">
+      </a> -->
+    </div>
+  </div>
+  </footer>
+  <!-- End Projects -->
+
+
+  <script src="./scripts.js"></script>
+</body>
+
+</html>
