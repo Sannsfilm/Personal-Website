@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+  background: var(--color-grey);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}

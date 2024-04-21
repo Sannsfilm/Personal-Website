@@ -1,0 +1,123 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  padding: 15px 30px;
+  position: fixed;
+
+  background: "transparent";
+  transition: all 0.3s ease-out;
+
+  z-index: 2;
+}
+
+/* animated background */
+
+#up {
+  position: absolute;
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgb(212, 107, 212),
+    rgb(43, 247, 202, 0.5)
+  );
+  filter: blur(80px);
+  animation: down 20s infinite;
+}
+
+#down {
+  position: absolute;
+  right: 0;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgba(245, 207, 82, 0.8),
+    rgba(199, 10, 114)
+  );
+  filter: blur(80px);
+  animation: up 20s infinite;
+}
+
+#left {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgb(8, 81, 110),
+    rgba(3, 179, 135, 0.932)
+  );
+  filter: blur(80px);
+  animation: left 20s infinite;
+}
+
+#right {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    80deg,
+    rgba(189, 244, 238, 0.52),
+    rgba(162, 14, 46, 0.8)
+  );
+  filter: blur(80px);
+  animation: right 30s infinite;
+}
+
+@keyframes down {
+  0%,
+  100% {
+    top: -100px;
+  }
+  70% {
+    top: 700px;
+  }
+}
+
+@keyframes up {
+  0%,
+  100% {
+    bottom: -100px;
+  }
+  70% {
+    bottom: 700px;
+  }
+}
+
+@keyframes left {
+  0%,
+  100% {
+    left: -100px;
+  }
+  70% {
+    left: 1300px;
+  }
+}
+
+@keyframes right {
+  0%,
+  100% {
+    right: -100px;
+  }
+  70% {
+    right: 1300px;
+  }
+}
+
+/* end animated background */
+
+nav a.navigation-item:hover {
+  color: #caa252;
+}
+nav a.navigation-item:active {
+  color: #caa252;
+}
