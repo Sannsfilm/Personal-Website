@@ -1,6 +1,6 @@
 /* sm => medium */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .navbar {
     display: flex;
     justify-content: end;
@@ -23,6 +23,87 @@
     border: none;
     z-index: 1;
   }
+} */
+
+/* Responsive larger than 375px screen */
+
+/* @media (min-width: 375px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+  }
 }
 
-/* Responsive larger than 450px screen */
+.box-about {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.box-about h3 {
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+.box-about h3 p {
+  font-size: 10px;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+
+}
+
+.box-about h4 {
+  font-weight: 100;
+  display: flex;
+  font-size: 1rem;
+}
+
+.menu-button {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  z-index: 100;
+}
+
+.skills-items img {
+  width: 50%;
+  height: 50%;
+}
+
+.person-content {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+div.heading-line1 {
+  font-size: 3rem;
+  display: block;
+}
+
+div.heading-line2 {
+  font-size: 3rem;
+}
+
+div.section-subtitle{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#about h1 {
+  font-size: 2rem;
+}
+
+#about h4 {
+  font-weight: 100;
+  font-size: 10px;
+  display: inline-block; /* Ganti `block` dengan `inline` */
+/* text-align: left; Mengatur align teks ke kanan */
