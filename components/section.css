@@ -42,6 +42,11 @@
   align-items: center;
 }
 
+#about p {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
 .box-about {
   width: 50%;
   display: flex;

@@ -1,109 +1,266 @@
-/* sm => medium */
+/* Responsive untuk ponsel */
 
-/* @media (max-width: 600px) {
-  .navbar {
-    display: flex;
-    justify-content: end;
+@media only screen and (max-width: 480px) {
+  #header {
+    padding: 10px 15px;
   }
-
-  .navbar-links {
-    display: flex;
-    flex-direction: column;
+  .navbar {
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    position: static;
+    padding: 10px;
     justify-content: space-between;
-    width: 50%;
-    height: 100vh;
-    position: fixed;
-    right: 0;
-    top: 0;
+    background-color: transparent;
   }
-
-  .menu-button {
-    display: block;
+  .navbar ul {
+    flex-direction: row;
+    width: 100%;
     padding: 0;
-    border: none;
-    z-index: 1;
   }
-} */
+  .navbar ul li {
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
 
-/* Responsive larger than 375px screen */
+  .navbar ul li a {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
 
-/* @media (min-width: 375px) {
-  .navbar {
+  .navbar ul li a:hover {
+    color: var(--color-burlywood);
+  }
+  #person,
+  #about,
+  #projects,
+  #contact {
+    width: 100%;
+  }
+  .person-content {
+    width: 80%;
+    font-size: 2rem;
+  }
+  .heading-line1 {
+    font-size: 3rem;
+  }
+
+  .heading-line2 {
+    font-size: 2.5rem;
+  }
+  .box-about {
+    width: 80%;
+  }
+  .box-projects {
+    width: 80%;
+  }
+  .contact-box {
+    width: 80%;
+  }
+
+  #about h1 {
+    font-size: 2rem;
+    text-align: justify;
+  }
+
+  #about h3 {
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+  }
+
+  #about p {
+    font-size: 10px;
+    text-align: justify;
+  }
+
+  .skills-content {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 0;
+    margin: 0;
+  }
+
+  .skills-items img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0;
+  }
+
+  .skills-items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-projects {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .projekts-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  h2.projekts-heading.section-heading {
+    font-size: 2rem !important;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .project {
     flex-direction: column;
-    align-items: space-between;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .project-image-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-info h3 {
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .project-info p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  #contact {
+    padding: 0;
+    margin: 0;
+  }
+
+  section.contact {
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .contact-box {
+    width: 100%;
+    padding: 10px;
+  }
+
+  h2.contact-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  #contact p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  .contact-form-submit {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .contact-form-error {
+    font-size: 0.8rem;
+    color: red;
   }
 }
 
-.box-about {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
+/* 
+Responsif for tablet */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #header {
+    padding: 15px 20px;
+  }
+
+  .navbar {
+    padding: 15px;
+    justify-content: space-between;
+  }
+
+  .navbar ul li a {
+    font-size: 1.4rem;
+    padding-bottom: 100px;
+  }
+
+  #person,
+  #about,
+  #projects,
+  #contact {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .person-content {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+
+  .heading-line1 {
+    font-size: 3.5rem;
+  }
+  .heading-line2 {
+    font-size: 3rem;
+  }
+
+  .box-about {
+    padding: 15px;
+  }
+
+  .box-projects {
+    padding: 15px;
+  }
+
+  .contact-box {
+    padding: 15px;
+  }
+
+  h2.contact-heading {
+    font-size: 2rem;
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  #contact p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .contact-form-submit {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+
+  .contact-form-error {
+    font-size: 1rem;
+    color: red;
+  }
 }
 
-.box-about h3 {
-  margin: 1rem;
-  font-size: 1rem;
+@media only screen and (min-width: 769px) {
 }
-
-.box-about h3 p {
-  font-size: 10px;
-  flex-direction: column;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  display: inline-block;
-
-}
-
-.box-about h4 {
-  font-weight: 100;
-  display: flex;
-  font-size: 1rem;
-}
-
-.menu-button {
-  display: block;
-  position: fixed;
-  top: 0;
-  right: 0;
-  margin: 10px;
-  z-index: 100;
-}
-
-.skills-items img {
-  width: 50%;
-  height: 50%;
-}
-
-.person-content {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-}
-
-div.heading-line1 {
-  font-size: 3rem;
-  display: block;
-}
-
-div.heading-line2 {
-  font-size: 3rem;
-}
-
-div.section-subtitle{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-#about h1 {
-  font-size: 2rem;
-}
-
-#about h4 {
-  font-weight: 100;
-  font-size: 10px;
-  display: inline-block; /* Ganti `block` dengan `inline` */
-/* text-align: left; Mengatur align teks ke kanan */
