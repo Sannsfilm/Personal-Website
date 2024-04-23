@@ -7,7 +7,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 10px;
-  background: var(--color-grey);
+  background: var(--color-black);
 }
 
 body {

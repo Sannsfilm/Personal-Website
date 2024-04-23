@@ -1,0 +1,28 @@
+/* sm => medium */
+
+@media (max-width: 600px) {
+  .navbar {
+    display: flex;
+    justify-content: end;
+  }
+
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+
+  .menu-button {
+    display: block;
+    padding: 0;
+    border: none;
+    z-index: 1;
+  }
+}
+
+/* Responsive larger than 450px screen */
