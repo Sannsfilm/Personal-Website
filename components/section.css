@@ -270,6 +270,10 @@
   align-items: center;
 }
 
+button.contact-form-submit {
+  padding: 10px;
+}
+
 /* end contact */
 
 .footer {
