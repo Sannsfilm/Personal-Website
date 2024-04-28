@@ -195,7 +195,7 @@
 }
 /* 
 Responsif for tablet */
-/* Responsif untuk tablet */
+
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
   #header {
     justify-content: center;
@@ -387,6 +387,8 @@ Responsif for tablet */
   }
 }
 
+/* for desktops */
+
 @media (min-width: 1638px) {
   #person {
     height: 100vh;
@@ -435,6 +437,7 @@ Responsif for tablet */
   #about p {
     font-size: 1.5rem;
     font-weight: 100;
+    padding-top: 40px;
   }
 
   .box-about {
@@ -454,8 +457,6 @@ Responsif for tablet */
   }
 
   .box-about h3 {
-    margin: 3rem;
-    font-size: calc(0.8vw + 0.8rem);
     font-size: 2rem;
     font-weight: 100px;
     align-items: center;
@@ -542,7 +543,7 @@ Responsif for tablet */
   .project {
     background-color: rgba(79, 79, 138, 0.75);
     border-radius: 10px;
-    width: 100%;
+    width: 65%;
   }
 
   .project-left {
@@ -607,7 +608,7 @@ Responsif for tablet */
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--color-white);
   }
 
